@@ -90,7 +90,7 @@ namespace Project_Ramanujan
             if (numberIsGood)
             {
                 //The test that every digit after must pass:
-                for (int i = 1; i < inputBase; i++)
+                for (int i = 1; i < right.Length; i++)
                 {
                     for (int j = 1; j < range.Length; j++)
                     {
